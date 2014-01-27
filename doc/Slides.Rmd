@@ -1,0 +1,27 @@
+---
+title : (Big) Data Analytics for Business
+subtitle : Segmentation in the Boating Industry
+author : INSEAD Data Analytics Group Project
+job : INSEAD
+widgets : []
+mode : standalone 
+---
+
+
+## Work in Progress
+
+Work in progress
+
+---
+
+## Work in Progress
+
+Work in progress
+
+---
+
+## Work in Progress
+
+Work in progress
+
+---

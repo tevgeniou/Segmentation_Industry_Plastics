@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<style type="text/css"> body {padding: 10px 30px 10px 30px;} table,th, td {text-align: center;}</style>
+<style>
+td.tableRow
+{
+text-align:center;
+}
+</style>
+
+
+Market Segmentation for a B2B Company
+========================================================
+
+**INSEAD Data Analytics Group Project**
+
+
+Introduction
+---------------------------------------------------------
+
+## The company
+
+The client is the second largest global diversified chemical company in the world, with over $50 billion in revenue.  The client manufactures chemicals, fertilizers, metals, and plastics in more than 60 locations around the world.
+The clients' innovative plastics business is committed to collaborating with customers to leverage the extensive product portfolio of thermoplastic resins, coatings, specialty compounds, film, and sheet materials as well as the broad industry expertise.
+
+## Customer survey outline
+
+In 2013 the company held a customer survey to understand the needs for companies to select a plastics material supplier. In total almost 1800 customers were interviewed. 
+
+The survey covered 20 different needs that were tested on their importance in driving choice. 
+
+1.  Material selection support
+2.	Processing support
+3.	Credit, financing and payment terms
+4.	Low material price
+5.	Total system cost reduction
+6.	Formula based or fixed material price
+7.	Delivery & inventory management
+8.	Efficient and reliable ordering process
+9.	Collaboration during innovation process
+10.	Application development support
+11.	Material coloring solutions
+12.	Supplier expertise
+13.	Local service and operations
+14.	Global service and operations
+15.	Account manager relationship
+16.	Collaboration for growth
+17.	Support sustainability goals
+18.	Business services
+19.	Broad material portfolio
+20.	Material quality
+
+Respondents of the survey ranked these needs with a Max-Diff method. The result is a quantitative ranking of needs for selecting a plastics material supplier. Within a respondent we calculated the relative importance for each of the 20 needs. The relative importance within a respondent will add up to 100%. That means for example that a Max-Diff score of 15.4 for the need 'material quality' drives 15.4% of the choice for that specific respondent. 
+
+For the top 5 needs of their ranking, the respondent was asked more detailed questions to understand their specific needs.
+
+## Survey results
+
+The survey results are provided anonymously in the attached excel file. Customer names and specific customer needs are not mentioned. The data set does include the following variables:
+
+Data set
+Respondent number (there could be more than one respondent in one company)
+Company number
+Pole (Europe, America, APAC)
+Type of function of the respondent
+Place in value chain
+Max_Diff relative importance of the 20 needs mentioned above (Need_1 to Need_20)
+Behavioral information (20) 
+
+The behavioral variables are either binary or measured on a 5-point scale:
+a)	The 5 point-scale is defined as:
+
+Very unlikely = 1
+Unlikely = 2
+Do not know = 3
+Likely = 4
+Very likely = 5
+
+b)	The binary scale is defined as:
+
+Yes = 1
+No = 0
+
+Problem statement
+--------------------------------------------------------------
+
+1.	Identify key input variables for the segmentation using through factor analysis. Teams should consider running several factor analyses (e.g. one for needs and one for behaviors). 
+
+2.	Identify segments based on survey outcome. Analyze the provided data set and identify number of segments (2-5) which represent clusters with specific and differentiated needs.
+
+3.	Develop a model for placing specific customer in one of the segments. The model should be based on the data provided. What is the accuracy of this model?
+
+4.	Analyze what additional data would be needed? What kind of information should be gathered in a possible new customer survey?
