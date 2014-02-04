@@ -9,9 +9,9 @@ get_libraries <- function(filenames_list) {
   })
 }
 
-libraries_used=c("devtools","shiny","knitr","graphics","grDevices","xtable",
+libraries_used=c("devtools","knitr","graphics","grDevices","xtable",
                  "Hmisc","vegan","fpc","GPArotation","FactoMineR","cluster",
-                 "psych","stringr","googleVis")
+                 "psych","stringr","googleVis", "png","ggplot2","googleVis", "gridExtra")
 get_libraries(libraries_used)
 
 if (require(slidifyLibraries) == FALSE) 
@@ -25,6 +25,6 @@ my_summary <- function(thedata){
   res = apply(thedata, 2, function(r) c(min(r), quantile(r, 0.25), quantile(r, 0.5), mean(r), quantile(r, 0.75), max(r), sd(r)))
   res <- round(res,2)
   colnames(res) <- colnames(thedata)
-  rownames(res) <- c("min", "25%", "median", "mean", "75%", "max", "std")
+  rownames(res) <- c("min", "25 percent", "median", "mean", "75 percent", "max", "std")
   t(res)
 }
